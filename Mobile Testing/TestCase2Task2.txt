@@ -1,0 +1,838 @@
+Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11422f950 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 48, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11422f950 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 48)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11422f950 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 48, length = 6525)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11422fa68 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 49, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11422fa68 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 49)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11422fa68 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 49, length = 2828)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x113cb2d10 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 50, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x113cb2d10 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 50)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 51)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 52)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [5DC078EC-2D6C-4AE4-8CE6-94D085840BBC] (reporting strategy default)> with parent <nw_activity 16:1 [E9AEB1FF-D6A0-4AAA-AA4C-E1EB730E6AC4] (reporting strategy default)>
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 51, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [F61D54F6-B5DC-436E-929A-EA5051D627A1] (reporting strategy default)> with parent <nw_activity 16:1 [E9AEB1FF-D6A0-4AAA-AA4C-E1EB730E6AC4] (reporting strategy default)>
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 52, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 51, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [5DC078EC-2D6C-4AE4-8CE6-94D085840BBC] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 0ms
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 52, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [F61D54F6-B5DC-436E-929A-EA5051D627A1] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 0ms
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 53)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [5C60E7CD-653D-42C3-A84C-D737D4D2580B] (reporting strategy default)> with parent <nw_activity 16:1 [E9AEB1FF-D6A0-4AAA-AA4C-E1EB730E6AC4] (reporting strategy default)>
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 53, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 53, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [5C60E7CD-653D-42C3-A84C-D737D4D2580B] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 0ms
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e152d0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 51, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e152d0 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 51)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e15378 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 52, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e15378 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 52)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e15420 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 53, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e15420 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 53)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: Memory usage info dump at MainFrameLoadCompleted:
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   pagecache_page_count: 0
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   javascript_gc_heap_extra_memory_size: 8672708
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   internal: 69222400
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   javascript_gc_heap_capacity: 17929668
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   virtual_size: 42411278336
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   resident_size: 84459520
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   document_count: 12
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   compressed: 0
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>:   phys_footprint: 109921200
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102c11d50 - FrameLoader::checkLoadCompleteForThisFrame: Finished frame load (frame = 0x1060a8240, main = 1)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 3, pageID = 7, frameID = 1, resourceID = 54)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:1 [E9AEB1FF-D6A0-4AAA-AA4C-E1EB730E6AC4] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 1976ms
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 54, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 54, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad MobileSafari(WebKit)[2733] <Notice>: 0x109e850d0 - NavigationState will release its process network assertion soon because the page load completed
+ Sep 26 16:27:06 iPad SpringBoard[50] <Notice>: disabling activity
+ Sep 26 16:27:06 iPad MobileSafari(DeviceManagement)[2733] <Notice>: Successfully fetched policies websites,applications,categories
+ Sep 26 16:27:06 iPad MobileSafari(DeviceManagement)[2733] <Notice>: Requested websites policy counts: <private>
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WirelessDiagnostics)[2750] <Notice>: client.trigger:#N Random sample for 0x320001 is skip
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 3, pageID = 7, frameID = 1, resourceID = 55)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 55, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 55, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 3, pageID = 7, frameID = 1, resourceID = 56)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 56, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 56, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 3, pageID = 7, frameID = 1, resourceID = 57)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674b00 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 57, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674b00 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 57, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e14af0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 54, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e14af0 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 54)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e14af0 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 54, length = 1936)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11b16d308 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 55, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11b16d308 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 55)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11b16d998 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 56, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11b16d998 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 56)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11b16dc00 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 57, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11b16dc00 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 57)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 58)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 58, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 58, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 59)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 59, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 59, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 59, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F84F391B-7CCC-41A0-9AF7-C7BF566A0107>.<191> resuming, QOS(0x19)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 59, description = LocalDataTask <F84F391B-7CCC-41A0-9AF7-C7BF566A0107>.<191>)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F84F391B-7CCC-41A0-9AF7-C7BF566A0107>.<191> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F84F391B-7CCC-41A0-9AF7-C7BF566A0107>.<191> now using Connection 35
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F84F391B-7CCC-41A0-9AF7-C7BF566A0107>.<191> sent request, body N
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 60)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 60, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 60, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 60, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <89CA18B7-6B47-4F26-A75D-2EE1932D6EC1>.<192> resuming, QOS(0x19)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 60, description = LocalDataTask <89CA18B7-6B47-4F26-A75D-2EE1932D6EC1>.<192>)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <89CA18B7-6B47-4F26-A75D-2EE1932D6EC1>.<192> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <89CA18B7-6B47-4F26-A75D-2EE1932D6EC1>.<192> now using Connection 35
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <89CA18B7-6B47-4F26-A75D-2EE1932D6EC1>.<192> sent request, body N
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 3, pageID = 7, frameID = 1, resourceID = 61)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 61, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 61, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <89CA18B7-6B47-4F26-A75D-2EE1932D6EC1>.<192> received response, status 200 content K
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <89CA18B7-6B47-4F26-A75D-2EE1932D6EC1>.<192> done using Connection 35
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <89CA18B7-6B47-4F26-A75D-2EE1932D6EC1>.<192> response ended
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 60, httpStatusCode = 200, length = 35)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 60)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 60, length = 35)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F84F391B-7CCC-41A0-9AF7-C7BF566A0107>.<191> received response, status 200 content K
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F84F391B-7CCC-41A0-9AF7-C7BF566A0107>.<191> done using Connection 35
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F84F391B-7CCC-41A0-9AF7-C7BF566A0107>.<191> response ended
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 59, httpStatusCode = 200, length = 2)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 59)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 59, length = 2)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10ad4d030 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 58, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10ad4d030 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 58)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10ad4d030 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 58, length = 42769)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10ad4de30 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 61, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10ad4de30 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 61)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11636ff70 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 60, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11636ff70 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 60)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11636ff70 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 60, length = 35)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x111b8a610 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 59, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x111b8a610 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 59)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x111b8a610 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 59, length = 2)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 62)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 62, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 62, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 62, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <64AA161E-E21A-4A09-8355-312CAA3E9259>.<193> resuming, QOS(0x19)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 62, description = LocalDataTask <64AA161E-E21A-4A09-8355-312CAA3E9259>.<193>)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <64AA161E-E21A-4A09-8355-312CAA3E9259>.<193> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <64AA161E-E21A-4A09-8355-312CAA3E9259>.<193> now using Connection 37
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <64AA161E-E21A-4A09-8355-312CAA3E9259>.<193> sent request, body N
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <64AA161E-E21A-4A09-8355-312CAA3E9259>.<193> received response, status 200 content K
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <64AA161E-E21A-4A09-8355-312CAA3E9259>.<193> done using Connection 37
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <64AA161E-E21A-4A09-8355-312CAA3E9259>.<193> response ended
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 62, httpStatusCode = 200, length = 8)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 62)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 62, length = 8)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11d9b36e8 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 62, status = 200)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11d9b36e8 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 62)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11d9b36e8 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 62, length = 8)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 63)
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 64)
+ Sep 26 16:27:06 iPad assertiond[60] <Notice>: Created BKApplicationStateServerClient for [2736:<private>] -> <private>
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 63, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 63, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 63, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F1D19378-AA91-4B85-8D0E-A1242CB29F76>.<194> resuming, QOS(0x19)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 63, description = LocalDataTask <F1D19378-AA91-4B85-8D0E-A1242CB29F76>.<194>)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F1D19378-AA91-4B85-8D0E-A1242CB29F76>.<194> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F1D19378-AA91-4B85-8D0E-A1242CB29F76>.<194> now using Connection 38
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 64, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 64, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 64, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F7C38D3C-B70B-4CFC-92AE-AB25BEB6315C>.<195> resuming, QOS(0x19)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 64, description = LocalDataTask <F7C38D3C-B70B-4CFC-92AE-AB25BEB6315C>.<195>)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F7C38D3C-B70B-4CFC-92AE-AB25BEB6315C>.<195> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:06 iPad pkd(CoreServices)[170] <Notice>: No plugins found to match query <private>
+ Sep 26 16:27:06 iPad pkd(CoreServices)[170] <Notice>: No plugins found to match query <private>
+ Sep 26 16:27:06 iPad CredentialProviderExtensionHelper(Foundation)[2736] <Error>: errors encountered while discovering extensions: Error Domain=PlugInKit Code=13 "query cancelled" UserInfo={NSLocalizedDescription=query cancelled}
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F7C38D3C-B70B-4CFC-92AE-AB25BEB6315C>.<195> now using Connection 39
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F1D19378-AA91-4B85-8D0E-A1242CB29F76>.<194> sent request, body N
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F7C38D3C-B70B-4CFC-92AE-AB25BEB6315C>.<195> sent request, body N
+ Sep 26 16:27:06 iPad CredentialProviderExtensionHelper(Foundation)[2736] <Error>: errors encountered while discovering extensions: Error Domain=PlugInKit Code=13 "query cancelled" UserInfo={NSLocalizedDescription=query cancelled}
+ Sep 26 16:27:06 iPad assertiond[60] <Notice>: Removed BKApplicationStateServerClient for [2736:<private>] -> <private>
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 65)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 65, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 65, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 65, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196> resuming, QOS(0x19)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 65, description = LocalDataTask <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196>)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 66)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196> now using Connection 53
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 3, pageID = 7, frameID = 1, resourceID = 67)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 66, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 66, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 66, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <599D550E-30EB-43E9-A295-7513916EC27F>.<197> resuming, QOS(0x19)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 66, description = LocalDataTask <599D550E-30EB-43E9-A295-7513916EC27F>.<197>)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196> sent request, body N
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <599D550E-30EB-43E9-A295-7513916EC27F>.<197> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <599D550E-30EB-43E9-A295-7513916EC27F>.<197> now using Connection 55
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 67, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 67, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <599D550E-30EB-43E9-A295-7513916EC27F>.<197> sent request, body N
+ Sep 26 16:27:06 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 68)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 68, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 68, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:06 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 68, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <159D6A23-5325-4AA1-A6F3-820A264FB79F>.<198> resuming, QOS(0x19)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 68, description = LocalDataTask <159D6A23-5325-4AA1-A6F3-820A264FB79F>.<198>)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <159D6A23-5325-4AA1-A6F3-820A264FB79F>.<198> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <159D6A23-5325-4AA1-A6F3-820A264FB79F>.<198> now using Connection 40
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <159D6A23-5325-4AA1-A6F3-820A264FB79F>.<198> sent request, body N
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6ce00 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 67, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6ce00 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 67)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6ce00 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 67, length = 764)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F1D19378-AA91-4B85-8D0E-A1242CB29F76>.<194> received response, status 200 content K
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F1D19378-AA91-4B85-8D0E-A1242CB29F76>.<194> done using Connection 38
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F1D19378-AA91-4B85-8D0E-A1242CB29F76>.<194> response ended
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 63, httpStatusCode = 200, length = 42)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 63)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 63, length = 42)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 69)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F7C38D3C-B70B-4CFC-92AE-AB25BEB6315C>.<195> received response, status 200 content K
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F7C38D3C-B70B-4CFC-92AE-AB25BEB6315C>.<195> done using Connection 39
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <F7C38D3C-B70B-4CFC-92AE-AB25BEB6315C>.<195> response ended
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 64, httpStatusCode = 200, length = 42)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 64)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 64, length = 42)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 69, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 69, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <159D6A23-5325-4AA1-A6F3-820A264FB79F>.<198> received response, status 200 content K
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <159D6A23-5325-4AA1-A6F3-820A264FB79F>.<198> done using Connection 40
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <159D6A23-5325-4AA1-A6F3-820A264FB79F>.<198> response ended
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 68, httpStatusCode = 200, length = 44)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 68)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 68, length = 44)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 3, pageID = 7, frameID = 1, resourceID = 70)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674b00 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 70, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674b00 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 70, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbdf870 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 63, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbdf870 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 63)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbdf870 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 63, length = 42)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbdf9c0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 64, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbdf9c0 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 64)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbdf9c0 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 64, length = 42)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11df51340 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 69, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11df51340 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 69)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6f3a0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 68, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6f3a0 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 68)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6f3a0 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 68, length = 44)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11e1bbc98 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 70, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11e1bbc98 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 1, resourceID = 70)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 3, pageID = 7, frameID = 1, resourceID = 71)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 71, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 1, resourceID = 71, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11e2ce3e0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 71, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11e2ce3e0 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 71)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11e2ce3e0 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 71, length = 975)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x114de4000 - DocumentLoader::startLoadingMainResource: Returning empty document (frame = 0x117c3b3c0, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102da0ef0 - FrameLoader::prepareForLoadStart: Starting frame load (frame = 0x117c3b3c0, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11d224000 - DocumentLoader::startLoadingMainResource: Starting load (frame = 0x117c3b3c0, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::setDefersLoading: Deferring resource load (pageID = 7, frameID = 1, resourceID = 66)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::setDefersLoading: Deferring resource load (pageID = 7, frameID = 1, resourceID = 65)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x117c3b3c0, priority = 4, pageID = 7, frameID = 2, resourceID = 72)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:1>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:1 [C4A87FD0-526B-4144-827A-FE85DD58F00D] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [4235E51B-7055-497E-B9A6-532475893393] (reporting strategy default)> with parent <nw_activity 16:1 [C4A87FD0-526B-4144-827A-FE85DD58F00D] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::start: Loading is deferred (pageID = 7, frameID = 2, resourceID = 72, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::setDefersLoading: Resuming deferred resource load (pageID = 7, frameID = 1, resourceID = 66)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <599D550E-30EB-43E9-A295-7513916EC27F>.<197> resuming, QOS(0x19)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::setDefersLoading: Resuming deferred resource load (pageID = 7, frameID = 1, resourceID = 65)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196> resuming, QOS(0x19)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::setDefersLoading: Resuming deferred resource load (pageID = 7, frameID = 2, resourceID = 72)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:1 [C4A87FD0-526B-4144-827A-FE85DD58F00D] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 0ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [4235E51B-7055-497E-B9A6-532475893393] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 0ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:1>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [BD379A38-DEE9-4F28-976A-15309B4F1CB9] (reporting strategy default)> with parent <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 2, resourceID = 72, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 2, resourceID = 72, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 2, resourceID = 72, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <28AF3DA2-30F0-437D-8B75-0D5C37D002C6>.<199> resuming, QOS(0x19)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 2, resourceID = 72, description = LocalDataTask <28AF3DA2-30F0-437D-8B75-0D5C37D002C6>.<199>)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <28AF3DA2-30F0-437D-8B75-0D5C37D002C6>.<199> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <28AF3DA2-30F0-437D-8B75-0D5C37D002C6>.<199> now using Connection 38
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C38] Starting activity <nw_activity 16:2 [BD379A38-DEE9-4F28-976A-15309B4F1CB9] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <28AF3DA2-30F0-437D-8B75-0D5C37D002C6>.<199> sent request, body N
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <28AF3DA2-30F0-437D-8B75-0D5C37D002C6>.<199> received response, status 200 content K
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 72, httpStatusCode = 200, length = -1)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e16fb0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 72, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <28AF3DA2-30F0-437D-8B75-0D5C37D002C6>.<199> done using Connection 38
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C38] Ending activity <nw_activity 16:2 [BD379A38-DEE9-4F28-976A-15309B4F1CB9] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196> received response, status 200 content C
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 65, httpStatusCode = 200, length = -1)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 65)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196> response ended
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <AC2F26DC-9CD8-483A-97B6-5A54DCBB1AA6>.<196> done using Connection 53
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 65, length = 42767)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6c770 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 65, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6c770 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 65)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6c770 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 65, length = 42767)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <28AF3DA2-30F0-437D-8B75-0D5C37D002C6>.<199> response ended
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 2, resourceID = 72)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 2, resourceID = 72, length = 26442)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [BD379A38-DEE9-4F28-976A-15309B4F1CB9] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 107ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e16fb0 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 2, resourceID = 72)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x117c3b3c0, priority = 3, pageID = 7, frameID = 2, resourceID = 73)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x116e16fb0 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 2, resourceID = 72, length = 26442)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [D6860192-259E-4028-9618-7AEEDFBA104F] (reporting strategy default)> with parent <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 2, resourceID = 73, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 2, resourceID = 73, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [D6860192-259E-4028-9618-7AEEDFBA104F] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 1ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11e916728 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 73, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11e916728 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 2, resourceID = 73)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: URL will be loaded as data (frame = 0x117c3b3c0, pageID = 7, frameID = 2, resourceID = 74)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: URL will be loaded as data (frame = 0x117c3b3c0, pageID = 7, frameID = 2, resourceID = 75)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: URL will be loaded as data (frame = 0x117c3b3c0, pageID = 7, frameID = 2, resourceID = 76)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x117c3b3c0, priority = 1, pageID = 7, frameID = 2, resourceID = 77)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [EB660540-4609-4926-A886-6891EBAD3BEA] (reporting strategy default)> with parent <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674b00 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 2, resourceID = 77, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674b00 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 2, resourceID = 77, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [EB660540-4609-4926-A886-6891EBAD3BEA] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 1ms
+ Sep 26 16:27:07 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x117c3b3c0, priority = 3, pageID = 7, frameID = 2, resourceID = 78)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [15133C2E-98CB-4AFB-8B64-8AB42541CE3F] (reporting strategy default)> with parent <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 2, resourceID = 78, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x117c3b3c0, priority = 2, pageID = 7, frameID = 2, resourceID = 79)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 2, resourceID = 78, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [15133C2E-98CB-4AFB-8B64-8AB42541CE3F] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 1ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [0C05F7AC-9B49-4F1B-82B4-8F096765D3F2] (reporting strategy default)> with parent <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 2, resourceID = 79, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 2, resourceID = 79, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [0C05F7AC-9B49-4F1B-82B4-8F096765D3F2] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 1ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x117c3b3c0, priority = 2, pageID = 7, frameID = 2, resourceID = 80)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x117c3b3c0, priority = 2, pageID = 7, frameID = 2, resourceID = 81)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [0DADA6B2-DAB5-4A30-9F68-F680F2E2BCB1] (reporting strategy default)> with parent <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 2, resourceID = 80, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [A31647E4-D1C4-41BC-AF40-2A8D45B3736D] (reporting strategy default)> with parent <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674b00 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 2, resourceID = 81, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677180 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 2, resourceID = 80, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [0DADA6B2-DAB5-4A30-9F68-F680F2E2BCB1] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 4ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674b00 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 2, resourceID = 81, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [A31647E4-D1C4-41BC-AF40-2A8D45B3736D] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 2ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2f3a0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 77, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2f3a0 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 2, resourceID = 77)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2f3a0 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 2, resourceID = 77, length = 2228)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2fb10 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 78, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2fb10 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 2, resourceID = 78)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2fb10 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 2, resourceID = 78, length = 12070)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2fcd0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 79, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2fcd0 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 2, resourceID = 79)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ee2fcd0 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 2, resourceID = 79, length = 88)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11f3a8000 - DocumentLoader::startLoadingMainResource: Returning empty document (frame = 0x11e1698c0, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11f4505e8 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 80, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11f4505e8 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 2, resourceID = 80)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11f4505e8 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 2, resourceID = 80, length = 10748)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11f450658 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 81, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11f450658 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 2, resourceID = 81)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11f450658 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 2, resourceID = 81, length = 6728)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <599D550E-30EB-43E9-A295-7513916EC27F>.<197> received response, status 200 content C
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <599D550E-30EB-43E9-A295-7513916EC27F>.<197> response ended
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <599D550E-30EB-43E9-A295-7513916EC27F>.<197> done using Connection 55
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 66, httpStatusCode = 200, length = 41364)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 66)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676680 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 66, length = 41364)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11e9e9e00 - DocumentLoader::startLoadingMainResource: Returning empty document (frame = 0x11f4d7600, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102ca2080 - FrameLoader::prepareForLoadStart: Starting frame load (frame = 0x11f4d7600, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102ca2080 - FrameLoader::checkLoadCompleteForThisFrame: Finished frame load (frame = 0x11f4d7600, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11e9ead00 - DocumentLoader::startLoadingMainResource: Returning empty document (frame = 0x11f4d7600, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:1 [ACDF436B-EBF4-4CE6-8A1A-9D6A11EF0732] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 235ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11e9e8f00 - DocumentLoader::startLoadingMainResource: Returning empty document (frame = 0x11f275680, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102da9d70 - FrameLoader::prepareForLoadStart: Starting frame load (frame = 0x11f275680, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102da9d70 - FrameLoader::checkLoadCompleteForThisFrame: Finished frame load (frame = 0x11f275680, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11fcf4000 - DocumentLoader::startLoadingMainResource: Returning empty document (frame = 0x11f275680, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x117c3b3c0, priority = 2, pageID = 7, frameID = 2, resourceID = 82)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102da8760 - FrameLoader::prepareForLoadStart: Starting frame load (frame = 0x11e1698c0, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11e9e8000 - DocumentLoader::startLoadingMainResource: Starting load (frame = 0x11e1698c0, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x11e1698c0, priority = 4, pageID = 7, frameID = 3, resourceID = 83)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6c930 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 66, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6c930 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 66)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11ba6c930 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 66, length = 41364)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 2, resourceID = 82, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 2, resourceID = 82, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:1>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:1 [B4974FB3-ECF5-43B9-A3D2-109389C76F10] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [67C453A3-0154-4511-812E-F99042CD8AA0] (reporting strategy default)> with parent <nw_activity 16:1 [B4974FB3-ECF5-43B9-A3D2-109389C76F10] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::start: Loading is deferred (pageID = 7, frameID = 3, resourceID = 83, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::setDefersLoading: Resuming deferred resource load (pageID = 7, frameID = 3, resourceID = 83)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:1 [B4974FB3-ECF5-43B9-A3D2-109389C76F10] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 0ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [67C453A3-0154-4511-812E-F99042CD8AA0] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 0ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:1>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:1 [37100F30-1C46-40A0-9D60-A3199BED4F6C] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [24DDBF72-724E-4B21-9BF8-F039CF26D967] (reporting strategy default)> with parent <nw_activity 16:1 [37100F30-1C46-40A0-9D60-A3199BED4F6C] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 3, resourceID = 83, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 3, resourceID = 83, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 3, resourceID = 83, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <D73BB4F9-FFB7-4B8A-87A5-5D150857EE5B>.<200> resuming, QOS(0x19)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 3, resourceID = 83, description = LocalDataTask <D73BB4F9-FFB7-4B8A-87A5-5D150857EE5B>.<200>)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <D73BB4F9-FFB7-4B8A-87A5-5D150857EE5B>.<200> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <D73BB4F9-FFB7-4B8A-87A5-5D150857EE5B>.<200> now using Connection 38
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C38] Starting activity <nw_activity 16:2 [24DDBF72-724E-4B21-9BF8-F039CF26D967] (reporting strategy default)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <D73BB4F9-FFB7-4B8A-87A5-5D150857EE5B>.<200> sent request, body N
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102da0ef0 - FrameLoader::checkLoadCompleteForThisFrame: Finished frame load (frame = 0x117c3b3c0, main = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:1 [37100F30-1C46-40A0-9D60-A3199BED4F6C] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 6ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [24DDBF72-724E-4B21-9BF8-F039CF26D967] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 6ms
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11df51458 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 2, resourceID = 82, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11df51458 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 2, resourceID = 82)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <D73BB4F9-FFB7-4B8A-87A5-5D150857EE5B>.<200> received response, status 200 content K
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <D73BB4F9-FFB7-4B8A-87A5-5D150857EE5B>.<200> done using Connection 38
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C38] Ending activity <nw_activity 16:2 [24DDBF72-724E-4B21-9BF8-F039CF26D967] (reporting strategy default) complete (reason none)>
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <D73BB4F9-FFB7-4B8A-87A5-5D150857EE5B>.<200> response ended
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 3, resourceID = 83, httpStatusCode = 200, length = 7748)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11df514c8 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 3, resourceID = 83, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 3, resourceID = 83)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675600 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 3, resourceID = 83, length = 7748)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11df514c8 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 3, resourceID = 83)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x11e1698c0, priority = 3, pageID = 7, frameID = 3, resourceID = 85)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11df514c8 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 3, resourceID = 83, length = 7748)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 3, resourceID = 85, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676100 - NetworkResourceLoader::retrieveCacheEntry: Retrieved resource from cache (pageID = 7, frameID = 3, resourceID = 85, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11422c738 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 3, resourceID = 85, status = 200)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11422c738 - WebResourceLoader::didReceiveResource: (pageID = 7, frameID = 3, resourceID = 85)
+ Sep 26 16:27:07 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102da8760 - FrameLoader::checkLoadCompleteForThisFrame: Finished frame load (frame = 0x11e1698c0, main = 0)
+ Sep 26 16:27:07 iPad mediaserverd(AppleTimeSyncAudioClock)[24] <Notice>: gPTPClockStatistics for 0xf962147e28840000
+ Sep 26 16:27:07 iPad mediaserverd(AppleTimeSyncAudioClock)[24] <Notice>: Grandmaster Identity: 0xf962147e28840000
+ Sep 26 16:27:07 iPad mediaserverd(AppleTimeSyncAudioClock)[24] <Notice>: Clock lock state: Locked
+ Sep 26 16:27:07 iPad mediaserverd(AppleTimeSyncAudioClock)[24] <Notice>: Rate Ratio: 2199023255552/2199023255552 (1.000000000000)
+ Sep 26 16:27:07 iPad mediaserverd(AppleTimeSyncAudioClock)[24] <Notice>: Anchors: 1311081709, 54628404583
+ Sep 26 16:27:07 iPad mediaserverd(AppleTimeSyncAudioClock)[24] <Notice>: Sync Identity: 0xf962147e28840000.0
+ Sep 26 16:27:08 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:08 iPad nsurlsessiond[86] <Notice>: Triggering periodic update to powerlog for client <private>
+ Sep 26 16:27:08 iPad symptomsd(SymptomEvaluator)[2477] <Notice>: L2 Metrics on ifname en0: rssi: -36 (txFrames/txReTx/txFail) 99/2/0 -> (was/is) 0/0
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11e9e9e00 - DocumentLoader::startLoadingMainResource: Returning empty document (frame = 0x11dd12640, main = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102d810f0 - FrameLoader::prepareForLoadStart: Starting frame load (frame = 0x11dd12640, main = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102d810f0 - FrameLoader::checkLoadCompleteForThisFrame: Finished frame load (frame = 0x11dd12640, main = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11e9ead00 - DocumentLoader::startLoadingMainResource: Returning empty document (frame = 0x11dd12640, main = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102d810f0 - FrameLoader::prepareForLoadStart: Starting frame load (frame = 0x11dd12640, main = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x11fcf4000 - DocumentLoader::startLoadingMainResource: Starting load (frame = 0x11dd12640, main = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x11dd12640, priority = 4, pageID = 7, frameID = 6, resourceID = 88)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:1>
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:1 [48AE9A7A-7DD0-49A3-8C7C-FA87789FE336] (reporting strategy default)>
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Create activity <nw_activity 16:2>
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: Activated <nw_activity 16:2 [4A5A179E-1527-47A9-AC14-A09C0611FB06] (reporting strategy default)> with parent <nw_activity 16:1 [48AE9A7A-7DD0-49A3-8C7C-FA87789FE336] (reporting strategy default)>
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 6, resourceID = 88, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 6, resourceID = 88, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 6, resourceID = 88, isMainResource = 1, isSynchronous = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <622DEBFF-A8A4-4F22-990B-1DC4C2736A1F>.<201> resuming, QOS(0x19)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 6, resourceID = 88, description = LocalDataTask <622DEBFF-A8A4-4F22-990B-1DC4C2736A1F>.<201>)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <622DEBFF-A8A4-4F22-990B-1DC4C2736A1F>.<201> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <622DEBFF-A8A4-4F22-990B-1DC4C2736A1F>.<201> now using Connection 40
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C40] Starting activity <nw_activity 16:2 [4A5A179E-1527-47A9-AC14-A09C0611FB06] (reporting strategy default)>
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <622DEBFF-A8A4-4F22-990B-1DC4C2736A1F>.<201> sent request, body S
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <622DEBFF-A8A4-4F22-990B-1DC4C2736A1F>.<201> received response, status 200 content K
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <622DEBFF-A8A4-4F22-990B-1DC4C2736A1F>.<201> done using Connection 40
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C40] Ending activity <nw_activity 16:2 [4A5A179E-1527-47A9-AC14-A09C0611FB06] (reporting strategy default)>
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <622DEBFF-A8A4-4F22-990B-1DC4C2736A1F>.<201> response ended
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 6, resourceID = 88, httpStatusCode = 200, length = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10ada0a80 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 6, resourceID = 88, status = 200)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 6, resourceID = 88, length = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:2 [4A5A179E-1527-47A9-AC14-A09C0611FB06] (reporting strategy default) complete (reason success)> complete with reason 2 (success), duration 54ms
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10ada0a80 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 6, resourceID = 88, length = 0)
+ Sep 26 16:27:08 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102d810f0 - FrameLoader::checkLoadCompleteForThisFrame: Finished frame load with error (frame = 0x11dd12640, main = 0, isTimeout = 0, isCancellation = 1, errorCode = -999)
+ Sep 26 16:27:08 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: <nw_activity 16:1 [48AE9A7A-7DD0-49A3-8C7C-FA87789FE336] (reporting strategy default) complete (reason none)> complete with reason 1 (none), duration 65ms
+ Sep 26 16:27:08 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:09 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:09 iPad nsurlsessiond[86] <Notice>: Triggering periodic update to powerlog for client <private>
+ Sep 26 16:27:09 iPad MobileSafari(WebKit)[2733] <Notice>: 0x109e850d0 NavigationState is releasing background process assertion because a page load completed
+ Sep 26 16:27:09 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x3 Cancel=0 Touching=1 inRange=1
+ Sep 26 16:27:09 iPad SpringBoard(FrontBoard)[50] <Notice>: immediate edge swipe: failed
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: [SpringBoard:50] Attempting to acquire assertion for MobileSafari:2733: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&D7996F71D1A7>
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: [MobileSafari:2733] Add assertion: <BKProcessAssertion: 0x105160c00; id: 50-E50388AC-D364-409F-B0DD-D7996F71D1A7; name: com.apple.UIKit.KeyboardManagement.message; state: active; reason: finishTask; duration: 180.0s> {
+    owner = <BSProcessHandle: 0x105110ee0; SpringBoard:50; valid: YES>;
+    flags = preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, preventSuspendOnSleep;
+}
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: [MobileSafari:2733] Activate assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&D7996F71D1A7>
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: Client relinquished <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&D7996F71D1A7>
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: [MobileSafari:2733] Deactivate assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&D7996F71D1A7>
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: [MobileSafari:2733] dump assertions count:2 HWM:5 (deactivateAssertion): {
+    <BKProcessAssertion: 0x10514f2c0; "Resume" (activation:inf); id:\M-b\M^@\M-&C3D9E370A443> [active]
+    <BKProcessAssertion: 0x105132920; "Shared Background Assertion 3 for com.apple.mobilesafari" (finishTask:180s); id:\M-b\M^@\M-&B967EDCF9235> [active]
+}
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: [MobileSafari:2733] Remove assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&D7996F71D1A7>
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:09 iPad assertiond[60] <Notice>: -[BKAssertion dealloc] - <0x105160c00>
+ Sep 26 16:27:09 iPad SpringBoard(FrontBoard)[50] <Notice>: Reporting system gestures are no longer possible due to too much movement
+ Sep 26 16:27:10 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:10 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x2 _childEventMask=0x2 Cancel=0 Touching=0 inRange=1
+ Sep 26 16:27:10 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x3 Cancel=0 Touching=1 inRange=1
+ Sep 26 16:27:10 iPad SpringBoard(FrontBoard)[50] <Notice>: immediate edge swipe: failed
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: [SpringBoard:50] Attempting to acquire assertion for MobileSafari:2733: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&7895B8FF1186>
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: [MobileSafari:2733] Add assertion: <BKProcessAssertion: 0x105034510; id: 50-102932A4-8590-4C22-8CF5-7895B8FF1186; name: com.apple.UIKit.KeyboardManagement.message; state: active; reason: finishTask; duration: 180.0s> {
+    owner = <BSProcessHandle: 0x105110ee0; SpringBoard:50; valid: YES>;
+    flags = preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, preventSuspendOnSleep;
+}
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: [MobileSafari:2733] Activate assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&7895B8FF1186>
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: Client relinquished <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&7895B8FF1186>
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: [MobileSafari:2733] Deactivate assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&7895B8FF1186>
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: [MobileSafari:2733] Remove assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&7895B8FF1186>
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:10 iPad assertiond[60] <Notice>: -[BKAssertion dealloc] - <0x105034510>
+ Sep 26 16:27:10 iPad SpringBoard(FrontBoard)[50] <Notice>: Reporting system gestures are no longer possible due to too much movement
+ Sep 26 16:27:10 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:10 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x2 _childEventMask=0x2 Cancel=0 Touching=0 inRange=1
+ Sep 26 16:27:10 iPad backboardd(AttentionAwareness)[54] <Notice>:              EventStatistics.m:48  :  159957.64905:  Info: 30 Digitizer since  159952.16733 (Wed Sep 26 16:27:05 2018)
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: [SpringBoard:50] Attempting to acquire assertion for MobileSafari:2733: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&6DBC90BF9BFD>
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: [MobileSafari:2733] Add assertion: <BKProcessAssertion: 0x105034510; id: 50-686C94C0-8050-4F68-93BE-6DBC90BF9BFD; name: com.apple.UIKit.KeyboardManagement.message; state: active; reason: finishTask; duration: 180.0s> {
+    owner = <BSProcessHandle: 0x105110ee0; SpringBoard:50; valid: YES>;
+    flags = preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, preventSuspendOnSleep;
+}
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: [MobileSafari:2733] Activate assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&6DBC90BF9BFD>
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: Client relinquished <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&6DBC90BF9BFD>
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: [MobileSafari:2733] Deactivate assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&6DBC90BF9BFD>
+ Sep 26 16:27:11 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x3 Cancel=0 Touching=1 inRange=1
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:11 iPad SpringBoard(FrontBoard)[50] <Notice>: immediate edge swipe: failed
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: [MobileSafari:2733] Remove assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&6DBC90BF9BFD>
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:11 iPad assertiond[60] <Notice>: -[BKAssertion dealloc] - <0x105034510>
+ Sep 26 16:27:11 iPad SpringBoard(FrontBoard)[50] <Notice>: Reporting system gestures are no longer possible due to too much movement
+ Sep 26 16:27:11 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:11 iPad MobileSafari(DeviceManagement)[2733] <Notice>: Successfully fetched policies websites,applications,categories
+ Sep 26 16:27:11 iPad MobileSafari(DeviceManagement)[2733] <Notice>: Requested websites policy counts: <private>
+ Sep 26 16:27:11 iPad ContextService[2398] <Notice>: Safari request with no text
+ Sep 26 16:27:11 iPad coreduetd(CoreDuet)[102] <Error>: Couldn't find matching content UTI: current: <private>
+ Sep 26 16:27:11 iPad suggestd(CoreSuggestionsInternals)[1449] <Notice>: Can do discretionary work: 1
+ Sep 26 16:27:11 iPad suggestd(CoreSuggestionsInternals)[1449] <Notice>: Starting discretionary work
+ Sep 26 16:27:11 iPad suggestd(CoreSuggestionsInternals)[1449] <Notice>: Warning: SGNamedEntityPlugin processing CSSI with missing textContent
+ Sep 26 16:27:11 iPad suggestd(CoreSuggestionsInternals)[1449] <Notice>: Ending discretionary work
+ Sep 26 16:27:11 iPad dasd(DuetActivitySchedulerDaemon)[94] <Error>: Activity not tracked as being started for BundleID (null), ignoring it
+ Sep 26 16:27:11 iPad dasd(DuetActivitySchedulerDaemon)[94] <Error>: Activity not tracked as being started for BundleID (null), ignoring it
+ Sep 26 16:27:11 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x2 _childEventMask=0x2 Cancel=0 Touching=0 inRange=1
+ Sep 26 16:27:11 iPad backboardd(AttentionAwareness)[54] <Notice>:              EventStatistics.m:48  :  159958.66568:  Info: 23 Digitizer since  159957.64963 (Wed Sep 26 16:27:10 2018)
+ Sep 26 16:27:12 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:12 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:13 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x3 Cancel=0 Touching=1 inRange=1
+ Sep 26 16:27:13 iPad SpringBoard(FrontBoard)[50] <Notice>: immediate edge swipe: failed
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: [SpringBoard:50] Attempting to acquire assertion for MobileSafari:2733: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&A31155939353>
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: [MobileSafari:2733] Add assertion: <BKProcessAssertion: 0x105160c00; id: 50-14E834AE-CE98-4F58-B4CC-A31155939353; name: com.apple.UIKit.KeyboardManagement.message; state: active; reason: finishTask; duration: 180.0s> {
+    owner = <BSProcessHandle: 0x105110ee0; SpringBoard:50; valid: YES>;
+    flags = preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, preventSuspendOnSleep;
+}
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: [MobileSafari:2733] Activate assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&A31155939353>
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: Client relinquished <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&A31155939353>
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: [MobileSafari:2733] Deactivate assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&A31155939353>
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: [MobileSafari:2733] Remove assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&A31155939353>
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:13 iPad assertiond[60] <Notice>: -[BKAssertion dealloc] - <0x105160c00>
+ Sep 26 16:27:13 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x3 Cancel=0 Touching=0 inRange=0
+ Sep 26 16:27:13 iPad symptomsd(SymptomEvaluator)[2477] <Notice>: L2 Metrics on ifname en0: rssi: -39 (txFrames/txReTx/txFail) 10/0/0 -> (was/is) 0/0
+ Sep 26 16:27:13 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:14 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:14 iPad backboardd(AttentionAwareness)[54] <Notice>:              EventStatistics.m:48  :  159961.07246:  Info: 2 Digitizer since  159958.66714 (Wed Sep 26 16:27:11 2018)
+ Sep 26 16:27:14 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x3 Cancel=0 Touching=1 inRange=1
+ Sep 26 16:27:14 iPad SpringBoard(FrontBoard)[50] <Notice>: immediate edge swipe: failed
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: [SpringBoard:50] Attempting to acquire assertion for MobileSafari:2733: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&AF45EE45FCB0>
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: [MobileSafari:2733] Add assertion: <BKProcessAssertion: 0x105160c00; id: 50-668D89F6-233F-4832-A6F8-AF45EE45FCB0; name: com.apple.UIKit.KeyboardManagement.message; state: active; reason: finishTask; duration: 180.0s> {
+    owner = <BSProcessHandle: 0x105110ee0; SpringBoard:50; valid: YES>;
+    flags = preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, preventSuspendOnSleep;
+}
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: [MobileSafari:2733] Activate assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&AF45EE45FCB0>
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: Client relinquished <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&AF45EE45FCB0>
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: [MobileSafari:2733] Deactivate assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&AF45EE45FCB0>
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: [MobileSafari:2733] Remove assertion: <BKProcessAssertion: 0x105160c00; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&AF45EE45FCB0>
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:14 iPad assertiond[60] <Notice>: -[BKAssertion dealloc] - <0x105160c00>
+ Sep 26 16:27:14 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x3 Cancel=0 Touching=0 inRange=0
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 89)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 89, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 89, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 89, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <B8D54F4A-6731-43EE-B648-A07EB45ADD25>.<202> resuming, QOS(0x19)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 89, description = LocalDataTask <B8D54F4A-6731-43EE-B648-A07EB45ADD25>.<202>)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <B8D54F4A-6731-43EE-B648-A07EB45ADD25>.<202> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <B8D54F4A-6731-43EE-B648-A07EB45ADD25>.<202> now using Connection 35
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <B8D54F4A-6731-43EE-B648-A07EB45ADD25>.<202> sent request, body N
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 90)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 90, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 90, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 90, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <649A49FF-DED1-4276-B34B-ABC5751EBC2D>.<203> resuming, QOS(0x19)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 90, description = LocalDataTask <649A49FF-DED1-4276-B34B-ABC5751EBC2D>.<203>)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <649A49FF-DED1-4276-B34B-ABC5751EBC2D>.<203> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <649A49FF-DED1-4276-B34B-ABC5751EBC2D>.<203> now using Connection 35
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <649A49FF-DED1-4276-B34B-ABC5751EBC2D>.<203> sent request, body N
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 91)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 91, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 91, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 91, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <8FFA0003-36F3-4AE8-B6E4-B00DCF78B1CC>.<204> resuming, QOS(0x19)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 91, description = LocalDataTask <8FFA0003-36F3-4AE8-B6E4-B00DCF78B1CC>.<204>)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <8FFA0003-36F3-4AE8-B6E4-B00DCF78B1CC>.<204> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <8FFA0003-36F3-4AE8-B6E4-B00DCF78B1CC>.<204> now using Connection 40
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <8FFA0003-36F3-4AE8-B6E4-B00DCF78B1CC>.<204> sent request, body N
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <B8D54F4A-6731-43EE-B648-A07EB45ADD25>.<202> received response, status 200 content K
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <B8D54F4A-6731-43EE-B648-A07EB45ADD25>.<202> done using Connection 35
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <B8D54F4A-6731-43EE-B648-A07EB45ADD25>.<202> response ended
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 89, httpStatusCode = 200, length = 35)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 89)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675080 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 89, length = 35)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <649A49FF-DED1-4276-B34B-ABC5751EBC2D>.<203> received response, status 200 content K
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <649A49FF-DED1-4276-B34B-ABC5751EBC2D>.<203> done using Connection 35
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <649A49FF-DED1-4276-B34B-ABC5751EBC2D>.<203> response ended
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 90, httpStatusCode = 200, length = 35)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 90)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 90, length = 35)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 92)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 92, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 92, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 92, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <DA389F5C-7B5D-4E0E-81C5-84EA9D5276E0>.<205> resuming, QOS(0x19)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 92, description = LocalDataTask <DA389F5C-7B5D-4E0E-81C5-84EA9D5276E0>.<205>)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <DA389F5C-7B5D-4E0E-81C5-84EA9D5276E0>.<205> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <DA389F5C-7B5D-4E0E-81C5-84EA9D5276E0>.<205> now using Connection 53
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <DA389F5C-7B5D-4E0E-81C5-84EA9D5276E0>.<205> sent request, body S
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10916c9d8 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 89, status = 200)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10916c9d8 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 89)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10916c9d8 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 89, length = 35)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11699a4f8 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 90, status = 200)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11699a4f8 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 90)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11699a4f8 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 90, length = 35)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <8FFA0003-36F3-4AE8-B6E4-B00DCF78B1CC>.<204> received response, status 200 content K
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <8FFA0003-36F3-4AE8-B6E4-B00DCF78B1CC>.<204> done using Connection 40
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <8FFA0003-36F3-4AE8-B6E4-B00DCF78B1CC>.<204> response ended
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 91, httpStatusCode = 200, length = 44)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 91)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104676c00 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 91, length = 44)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x113ce50d8 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 91, status = 200)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x113ce50d8 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 91)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x113ce50d8 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 91, length = 44)
+ Sep 26 16:27:14 iPad SpringBoard[50] <Notice>: enabling activity
+ Sep 26 16:27:14 iPad SpringBoard[50] <Notice>: activity info changed to slow=0 sync=0 identifier=com.apple.mobilesafari
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <DA389F5C-7B5D-4E0E-81C5-84EA9D5276E0>.<205> received response, status 200 content K
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <DA389F5C-7B5D-4E0E-81C5-84EA9D5276E0>.<205> response ended
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <DA389F5C-7B5D-4E0E-81C5-84EA9D5276E0>.<205> done using Connection 53
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 92, httpStatusCode = 200, length = 2)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 92)
+ Sep 26 16:27:14 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 92, length = 2)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x113e73090 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 92, status = 200)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x113e73090 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 92)
+ Sep 26 16:27:14 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x113e73090 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 92, length = 2)
+ Sep 26 16:27:15 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 2, pageID = 7, frameID = 1, resourceID = 93)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 93, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 93, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 93, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <095F48C9-00B4-44B4-9E7A-1E3DAB4EF312>.<206> resuming, QOS(0x19)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 93, description = LocalDataTask <095F48C9-00B4-44B4-9E7A-1E3DAB4EF312>.<206>)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <095F48C9-00B4-44B4-9E7A-1E3DAB4EF312>.<206> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <095F48C9-00B4-44B4-9E7A-1E3DAB4EF312>.<206> now using Connection 53
+ Sep 26 16:27:15 iPad SpringBoard[50] <Notice>: disabling activity
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <095F48C9-00B4-44B4-9E7A-1E3DAB4EF312>.<206> sent request, body N
+ Sep 26 16:27:15 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:15 iPad rapportd(CoreUtils)[71] <Notice>: Lost CUBonjourDevice 3A:D4:C6:A1:56:45, 'EPUAKHAW1112'
+ Sep 26 16:27:15 iPad rapportd(CoreUtils)[71] <Notice>: Bonjour unauth peer lost <3A:D4:C6:A1:56:45>: CUBonjourDevice 3A:D4:C6:A1:56:45, 'EPUAKHAW1112'
+ Sep 26 16:27:15 iPad backboardd(AttentionAwareness)[54] <Notice>:              EventStatistics.m:48  :  159962.11711:  Info: 2 Digitizer since  159961.07276 (Wed Sep 26 16:27:14 2018)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <095F48C9-00B4-44B4-9E7A-1E3DAB4EF312>.<206> received response, status 200 content C
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <095F48C9-00B4-44B4-9E7A-1E3DAB4EF312>.<206> response ended
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <095F48C9-00B4-44B4-9E7A-1E3DAB4EF312>.<206> done using Connection 53
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 93, httpStatusCode = 200, length = -1)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 93)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104674000 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 93, length = 2514)
+ Sep 26 16:27:15 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11699b918 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 93, status = 200)
+ Sep 26 16:27:15 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11699b918 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 93)
+ Sep 26 16:27:15 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11699b918 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 93, length = 2514)
+ Sep 26 16:27:15 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 94)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 94, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 94, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 94, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <3D6F33C5-FF52-4F5A-98E9-356206BB15BD>.<207> resuming, QOS(0x19)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 94, description = LocalDataTask <3D6F33C5-FF52-4F5A-98E9-356206BB15BD>.<207>)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <3D6F33C5-FF52-4F5A-98E9-356206BB15BD>.<207> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <3D6F33C5-FF52-4F5A-98E9-356206BB15BD>.<207> now using Connection 53
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <3D6F33C5-FF52-4F5A-98E9-356206BB15BD>.<207> sent request, body N
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <3D6F33C5-FF52-4F5A-98E9-356206BB15BD>.<207> received response, status 200 content K
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <3D6F33C5-FF52-4F5A-98E9-356206BB15BD>.<207> response ended
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <3D6F33C5-FF52-4F5A-98E9-356206BB15BD>.<207> done using Connection 53
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 94, httpStatusCode = 200, length = 10953)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 94)
+ Sep 26 16:27:15 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104677700 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 94, length = 10953)
+ Sep 26 16:27:15 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10916c2d8 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 94, status = 200)
+ Sep 26 16:27:15 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10916c2d8 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 94)
+ Sep 26 16:27:15 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x10916c2d8 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 94, length = 10953)
+ Sep 26 16:27:15 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 463 samples, heartbeat : 15
+ Sep 26 16:27:16 iPad nsurlsessiond[86] <Notice>: Triggering periodic update to powerlog for client <private>
+ Sep 26 16:27:16 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:16 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102c13210 - PerformanceMonitor::measurePostLoadMemoryUsage: Process was using 183633096 bytes of memory after the page load.
+ Sep 26 16:27:16 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x863 _childEventMask=0x843 Cancel=0 Touching=1 inRange=1
+ Sep 26 16:27:16 iPad SpringBoard(FrontBoard)[50] <Notice>: immediate edge swipe: recognized
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: [SpringBoard:50] Attempting to acquire assertion for MobileSafari:2733: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&25244493303A>
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: [MobileSafari:2733] Add assertion: <BKProcessAssertion: 0x105034510; id: 50-C7CAD08A-5A09-454E-BA76-25244493303A; name: com.apple.UIKit.KeyboardManagement.message; state: active; reason: finishTask; duration: 180.0s> {
+    owner = <BSProcessHandle: 0x105110ee0; SpringBoard:50; valid: YES>;
+    flags = preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, preventSuspendOnSleep;
+}
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: [MobileSafari:2733] Activate assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&25244493303A>
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: Client relinquished <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&25244493303A>
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: [MobileSafari:2733] Deactivate assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&25244493303A>
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: [MobileSafari:2733] Remove assertion: <BKProcessAssertion: 0x105034510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&25244493303A>
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: Updating PowerAssertion on MobileSafari:2733
+ Sep 26 16:27:16 iPad assertiond[60] <Notice>: -[BKAssertion dealloc] - <0x105034510>
+ Sep 26 16:27:16 iPad backboardd(MultitouchHID)[54] <Notice>: [HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x3 Cancel=0 Touching=0 inRange=0
+ Sep 26 16:27:16 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x105bf80c8 - WebLoaderStrategy::scheduleLoad: Resource is being scheduled with the NetworkProcess (frame = 0x1060a8240, priority = 1, pageID = 7, frameID = 1, resourceID = 95)
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::start: Checking cache for resource (pageID = 7, frameID = 1, resourceID = 95, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::retrieveCacheEntry: Resource not in cache (pageID = 7, frameID = 1, resourceID = 95, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 95, isMainResource = 0, isSynchronous = 0)
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <2BF685D0-C7BC-46B4-B8E8-6A71404937BD>.<208> resuming, QOS(0x19)
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::startNetworkLoad: (pageID = 7, frameID = 1, resourceID = 95, description = LocalDataTask <2BF685D0-C7BC-46B4-B8E8-6A71404937BD>.<208>)
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <2BF685D0-C7BC-46B4-B8E8-6A71404937BD>.<208> {strength 0, tls 4, ct 0, sub 0, sig 1, ciphers 0, bundle 1, builtin 0}
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <2BF685D0-C7BC-46B4-B8E8-6A71404937BD>.<208> now using Connection 35
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <2BF685D0-C7BC-46B4-B8E8-6A71404937BD>.<208> sent request, body N
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <2BF685D0-C7BC-46B4-B8E8-6A71404937BD>.<208> received response, status 200 content K
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <2BF685D0-C7BC-46B4-B8E8-6A71404937BD>.<208> done using Connection 35
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: Task <2BF685D0-C7BC-46B4-B8E8-6A71404937BD>.<208> response ended
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 95, httpStatusCode = 200, length = 35)
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didReceiveBuffer: Started receiving data (pageID = 7, frameID = 1, resourceID = 95)
+ Sep 26 16:27:16 iPad com.apple.WebKit.Networking(WebKit)[2735] <Notice>: 0x104675b80 - NetworkResourceLoader::didFinishLoading: (pageID = 7, frameID = 1, resourceID = 95, length = 35)
+ Sep 26 16:27:16 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbddce0 - WebResourceLoader::didReceiveResponse: (pageID = 7, frameID = 1, resourceID = 95, status = 200)
+ Sep 26 16:27:16 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbddce0 - WebResourceLoader::didReceiveData: Started receiving data (pageID = 7, frameID = 1, resourceID = 95)
+ Sep 26 16:27:16 iPad com.apple.WebKit.WebContent(WebKit)[2750] <Notice>: 0x11dbddce0 - WebResourceLoader::didFinishResourceLoad: (pageID = 7, frameID = 1, resourceID = 95, length = 35)
+ Sep 26 16:27:17 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:17 iPad UserEventAgent(AppleHDQGasGauge)[20] <Notice>: determinePoSMThreshold, enabled:0 0 1 1
+ Sep 26 16:27:17 iPad UserEventAgent(AppleHDQGasGauge)[20] <Notice>: determinePoSMThreshold, changed:0 0 0 0
+ Sep 26 16:27:17 iPad UserEventAgent(AppleHDQGasGauge)[20] <Notice>: determinePoSMThreshold, cmp:230>0 12396>0 1239>10000 10>65
+ Sep 26 16:27:17 iPad UserEventAgent(AppleHDQGasGauge)[20] <Notice>: determinePoSMThreshold,minThreshold=-1 threshold:0 0 -1 -1
+ Sep 26 16:27:17 iPad UserEventAgent(AppleHDQGasGauge)[20] <Notice>: POSM running- en=0, th=65535 65535
+ Sep 26 16:27:17 iPad locationd[57] <Notice>: {"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb"}
+ Sep 26 16:27:17 iPad backboardd(AttentionAwareness)[54] <Notice>:              EventStatistics.m:48  :  159964.35222:  Info: 3 Digitizer since  159962.11743 (Wed Sep 26 16:27:15 2018)
+ Sep 26 16:27:17 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:18 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:18 iPad symptomsd(SymptomEvaluator)[2477] <Notice>: L2 Metrics on ifname en0: rssi: -32 (txFrames/txReTx/txFail) 31/0/0 -> (was/is) 0/0
+ Sep 26 16:27:19 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:19 iPad MobileSafari(libxpc.dylib)[2733] <Notice>: Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+ Sep 26 16:27:19 iPad MobileSafari(WebKit)[2733] <Notice>: 0x1094df210 - ~ProcessAssertion() Releasing process assertion
+ Sep 26 16:27:19 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:20 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:21 iPad rapportd(CoreUtils)[71] <Notice>: Found CUBonjourDevice 3A:D4:C6:A1:56:45, 'EPUAKHAW1112'
+ Sep 26 16:27:21 iPad rapportd(CoreUtils)[71] <Notice>: Bonjour unauth peer found <3A:D4:C6:A1:56:45>: CUBonjourDevice 3A:D4:C6:A1:56:45, 'EPUAKHAW1112'
+ Sep 26 16:27:21 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:21 iPad MobileSafari(libxpc.dylib)[2733] <Notice>: Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+ Sep 26 16:27:21 iPad MobileSafari(WebKit)[2733] <Notice>: 0x109e08c70 - ~ProcessAssertion() Releasing process assertion
+ Sep 26 16:27:21 iPad com.apple.WebKit.WebContent(WebCore)[2750] <Notice>: 0x102c13210 - PerformanceMonitor::measurePostLoadCPUUsage: Process was using 12.7% CPU after the page load.
+ Sep 26 16:27:21 iPad nsurlsessiond[86] <Notice>: Triggering periodic update to powerlog for client <private>
+ Sep 26 16:27:22 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:22 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:23 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 1024 samples, heartbeat : 15
+ Sep 26 16:27:23 iPad symptomsd(SymptomEvaluator)[2477] <Notice>: L2 Metrics on ifname en0: rssi: -33 (txFrames/txReTx/txFail) 8/2/0 -> (was/is) 0/0
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: TIC TCP Conn Cancel [47:0x10581f1d0]
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C47 Hostname#740a1d2b:443 tcp, pid: 2733, url hash: d3482c97, tls] cancel
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C47 Hostname#740a1d2b:443 tcp, pid: 2733, url hash: d3482c97, tls] cancelled
+	[C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443]
+	Connected Path: satisfied (Path is satisfied), interface: en0, ipv4, dns
+	Duration: 31.763s, DNS @0.000s took 0.024s, TCP @0.028s took 0.019s, TLS took 0.071s
+	bytes in/out: 53341/3641, packets in/out: 43/6, rtt: 0.021s, retransmitted packets: 0, out-of-order packets: 2
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.000s [C47 <private> Hostname#740a1d2b:443 resolver] path:start
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.000s [C47 <private> Hostname#740a1d2b:443 resolver] path:satisfied
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.000s [C47 <private> Hostname#740a1d2b:443 resolver] resolver:start_dns
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.007s [C47] client:start_activity <nw_activity 16:2 [217AF2AF-9AC8-4336-AF64-98E2DAFCD3F5] (reporting strategy default) complete (reason success)>
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.024s [C47 <private> Hostname#740a1d2b:443 resolver] resolver:receive_dns
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.024s [C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443 channel-flow] path:start
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.027s [C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443 channel-flow] path:satisfied
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.027s [C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443 channel-flow] flow:start_nexus
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.028s [C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443 channel-flow] flow:receive_nexus
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.028s [C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443 channel-flow] flow:start_connect
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.047s [C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443 channel-flow] flow:finish_transport
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.047s [C47 <private> Hostname#740a1d2b:443 resolver] flow:finish_transport
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.118s [C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443 channel-flow] flow:finish_connect
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.118s [C47 <private> Hostname#740a1d2b:443 resolver] flow:finish_connect
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.118s [C47.1 <private> 10.23.164.230:57251<->IPv4#0e60f710:443 channel-flow] flow:changed_viability
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.118s [C47 <private> Hostname#740a1d2b:443 resolver] flow:changed_viability
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.123s [C47] client:end_activity <nw_activity 16:2 [217AF2AF-9AC8-4336-AF64-98E2DAFCD3F5] (reporting strategy default) complete (reason success)>
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.124s [C47] client:start_activity <nw_activity 16:2 [217AF2AF-9AC8-4336-AF64-98E2DAFCD3F5] (reporting strategy default) complete (reason success)>
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.190s [C47] client:end_activity <nw_activity 16:2 [217AF2AF-9AC8-4336-AF64-98E2DAFCD3F5] (reporting strategy default) complete (reason success)>
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 1.355s [C47] client:start_activity <nw_activity 16:2 [27F058EF-055A-4645-922E-1150CC6CEAAE] (reporting strategy default) complete (reason none)>
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 1.374s [C47] client:end_activity <nw_activity 16:2 [27F058EF-055A-4645-922E-1150CC6CEAAE] (reporting strategy default) complete (reason none)>
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 31.763s [C47] path:cancel
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libusrtcp.dylib)[2735] <Notice>: nw_protocol_tcp_log_summary [C47.1:3] 
+	[<private> <private>:57251<-><private>:443]
+	Init: 1, Conn_Time: 18.147ms, Syn's: 1, WR_T: 0/0, RD_T: 0/0, TFO: 0/0/0, ECN: 0/1/1, TS: 1
+	RTT_Cache: none, rtt_upd: 24, rtt: 21.781ms, rtt_var: 6.937ms rtt_nc: 21.781ms, rtt_var_nc: 6.937ms
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: nw_endpoint_flow_protocol_disconnected [C47.1 IPv4#0e60f710:443 cancelled channel-flow (null)] Output protocol disconnected
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: nw_connection_report_state_with_handler_locked [C47] reporting state cancelled
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: TIC TCP Conn Cancel [51:0x100d928e0]
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C51 Hostname#740a1d2b:443 tcp, pid: 2733, url hash: bdc6da92, tls] cancel
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: [C51 Hostname#740a1d2b:443 tcp, pid: 2733, url hash: bdc6da92, tls] cancelled
+	[C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443]
+	Connected Path: satisfied (Path is satisfied), interface: en0, ipv4, dns
+	Duration: 30.621s, DNS @0.000s took 0.001s, TCP @0.002s took 0.017s, TLS took 0.052s
+	bytes in/out: 6609/796, packets in/out: 7/3, rtt: 0.020s, retransmitted packets: 0, out-of-order packets: 0
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.000s [C51 <private> Hostname#740a1d2b:443 resolver] path:start
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.000s [C51 <private> Hostname#740a1d2b:443 resolver] path:satisfied
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.000s [C51 <private> Hostname#740a1d2b:443 resolver] resolver:start_dns
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.001s [C51 <private> Hostname#740a1d2b:443 resolver] resolver:receive_dns
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.001s [C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443 channel-flow] path:start
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.001s [C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443 channel-flow] path:satisfied
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.001s [C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443 channel-flow] flow:start_nexus
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.001s [C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443 channel-flow] flow:receive_nexus
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.002s [C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443 channel-flow] flow:start_connect
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.019s [C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443 channel-flow] flow:finish_transport
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.019s [C51 <private> Hostname#740a1d2b:443 resolver] flow:finish_transport
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.071s [C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443 channel-flow] flow:finish_connect
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.071s [C51 <private> Hostname#740a1d2b:443 resolver] flow:finish_connect
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.071s [C51.1 <private> 10.23.164.230:57255<->IPv4#0e60f710:443 channel-flow] flow:changed_viability
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 0.071s [C51 <private> Hostname#740a1d2b:443 resolver] flow:changed_viability
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: 30.621s [C51] path:cancel
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libusrtcp.dylib)[2735] <Notice>: nw_protocol_tcp_log_summary [C51.1:3] 
+	[<private> <private>:57255<-><private>:443]
+	Init: 1, Conn_Time: 16.270ms, Syn's: 1, WR_T: 0/0, RD_T: 0/0, TFO: 0/0/0, ECN: 0/1/1, TS: 1
+	RTT_Cache: kernel, rtt_upd: 4, rtt: 20.906ms, rtt_var: 6.687ms rtt_nc: 16.218ms, rtt_var_nc: 3.812ms
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: nw_endpoint_flow_protocol_disconnected [C51.1 IPv4#0e60f710:443 cancelled channel-flow (null)] Output protocol disconnected
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(libnetwork.dylib)[2735] <Notice>: nw_connection_report_state_with_handler_locked [C51] reporting state cancelled
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: TIC TCP Conn Destroyed [47:0x10581f1d0]
+ Sep 26 16:27:23 iPad com.apple.WebKit.Networking(CFNetwork)[2735] <Notice>: TIC TCP Conn Destroyed [51:0x100d928e0]
+ Sep 26 16:27:24 iPad mediaserverd(VoiceTrigger)[24] <Notice>: ::: Received 462 samples, heartbeat : 15
+ Sep 26 16:27:24 iPad syncdefaultsd(CFNetwork)[2747] <Notice>: TIC TCP Conn Cancel [2:0x1032f4880]
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: [C2 Hostname#99d95607:443 tcp, url hash: 99126988, traffic class: 200, tls] cancel
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: [C2 Hostname#99d95607:443 tcp, url hash: 99126988, traffic class: 200, tls] cancelled
+	[C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443]
+	Connected Path: satisfied (Path is satisfied), interface: en0, ipv4, dns
+	Duration: 30.924s, DNS @0.000s took 0.003s, TCP @0.005s took 0.076s, TLS took 0.081s
+	bytes in/out: 1233/2084, packets in/out: 2/4, rtt: 0.082s, retransmitted packets: 0, out-of-order packets: 0
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.000s [C2 <private> Hostname#99d95607:443 resolver] path:start
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.000s [C2 <private> Hostname#99d95607:443 resolver] path:satisfied
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.000s [C2 <private> Hostname#99d95607:443 resolver] resolver:start_dns
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.003s [C2 <private> Hostname#99d95607:443 resolver] resolver:receive_dns
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.004s [C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443 channel-flow] path:start
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.004s [C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443 channel-flow] path:satisfied
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.004s [C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443 channel-flow] flow:start_nexus
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.004s [C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443 channel-flow] flow:receive_nexus
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.005s [C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443 channel-flow] flow:start_connect
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.081s [C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443 channel-flow] flow:finish_transport
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.081s [C2 <private> Hostname#99d95607:443 resolver] flow:finish_transport
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.162s [C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443 channel-flow] flow:finish_connect
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.162s [C2 <private> Hostname#99d95607:443 resolver] flow:finish_connect
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.162s [C2.1 <private> 10.23.164.230:57256<->IPv4#e3eaac8e:443 channel-flow] flow:changed_viability
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 0.162s [C2 <private> Hostname#99d95607:443 resolver] flow:changed_viability
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: 30.924s [C2] path:cancel
+ Sep 26 16:27:24 iPad syncdefaultsd(libusrtcp.dylib)[2747] <Notice>: nw_protocol_tcp_log_summary [C2.1:3] 
+	[<private> <private>:57256<-><private>:443]
+	Init: 1, Conn_Time: 76.477ms, Syn's: 1, WR_T: 0/0, RD_T: 0/0, TFO: 0/0/0, ECN: 0/1/1, TS: 1
+	RTT_Cache: none, rtt_upd: 4, rtt: 82.437ms, rtt_var: 28.187ms rtt_nc: 82.437ms, rtt_var_nc: 28.187ms
+ Sep 26 16:27:24 iPad syncdefaultsd(libnetwork.dylib)[2747] <Notice>: nw_endpoint_flow_protocol_disconnected [C2.1 IPv4#e3eaac8e:443
