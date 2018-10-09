@@ -1,0 +1,165 @@
+
+C:\Users\Kateryna_Taran\Desktop\Tasks\IntroToCloud\maestro-cli\maestro-cli>cmd /k cd bin
+
+C:\Users\Kateryna_Taran\Desktop\Tasks\IntroToCloud\maestro-cli\maestro-cli\bin>or2help
+Response:
+==============================================================================================================================================================================================================
+ command                               | alias       | description                                                                                                                                           |
+==============================================================================================================================================================================================================
+ or2-add-eo-account                    | or2addacc   | Creates an EPAM Cloud account to combine costs for different projects                                                                                 |
+ or2-allocate-static-ip                | or2alsip    | Allocates a static IP to the project.                                                                                                                 |
+ or2-ambari-cluster                    | or2ac       | Manage Ambari cluster.                                                                                                                                |
+ or2-ansible-dynamic-inventory         | or2adi      | Returns Ansible dynamic inventory in a JSON format for a specified project and zone.                                                                  |
+ or2-ansible-group-properties          | or2agp      | Manages ansible group properties (e.g. set, delete, describe)                                                                                         |
+ or2-ansible-groups                    | or2ag       | Manages ansible groups (e.g. create, delete, describe).                                                                                               |
+ or2-ansible-hosts                     | or2ah       | Manages ansible hosts (e.g. include, exclude, describe).                                                                                              |
+ or2-ansible-init                      | or2ai       | Initializes Ansible environment for a specified project in zone.                                                                                      |
+ or2-associate-static-ip               | or2assip    | Associates the specified static IP to the given VM.                                                                                                   |
+ or2-attach-volume                     | or2attvol   | Attaches specified storage volume to the specified instance                                                                                           |
+ or2-audit                             | or2audit    | Views all relevant instance-related information for a specified period of time (default-3 days)                                                       |
+ or2-aws-launch-template               | or2lt       | Manages AWS launch templates.                                                                                                                         |
+ or2-aws-management-console            | or2awsmc    | Provides an URL for accessing AWS management console to the current user.                                                                             |
+ or2-azure-management-console          | or2azmc     | Grants permissions to access Azure management console.                                                                                                |
+ or2-change-owner                      | or2chow     | Changes or sets an owner of the specified project instance or file resource.                                                                          |
+ or2-change-shape                      | or2chshape  | Changes the shape of the specified instance                                                                                                           |
+ or2-check-version                     | or2check    | Shows the version of Maestro CLI client currently installed on your machine                                                                           |
+ or2-chef-mode                         | or2cm       | Sets one of the existing chef modes (default, epc, user) to the project                                                                               |
+ or2-cloud-watch-agent                 | or2cwag     | Manages instance monitoring through CloudWatch agents in private regions.                                                                             |
+ or2-console                           | or2console  | Allows activating instance console and getting access credentials for it                                                                              |
+ or2-convert-maestro-stack-template    | or2cmst     | Convert Maestro stack template to CloudFormation template.                                                                                            |
+ or2-create-attach-volume              | or2addattvol| Creates and attaches a storage volume to the specified instance                                                                                       |
+ or2-create-checkpoint                 | or2ccp      | Creates an instance recovery point                                                                                                                    |
+ or2-create-image                      | or2cim      | Creates an image based on the instance and its storages                                                                                               |
+ or2-create-jenkins-job                | or2cjj      | Creates a new Jenkins job                                                                                                                             |
+ or2-create-keypair                    | or2addkey   | Creates a key pair used to access instances without need to provide login credentials                                                                 |
+ or2-create-schedule                   | or2addsch   | Creates a new schedule to start, stop or suspend explicit instances using cron expressions                                                            |
+ or2-decrypt-password                  | or2dp       | Decrypts the password obtained in or2console mail message.                                                                                            |
+ or2-delete-aws-stack                  | or2delawss  | Deletes an existing AWS stack                                                                                                                         |
+ or2-delete-checkpoint                 | or2delcp    | Deletes specified instance checkpoints                                                                                                                |
+ or2-delete-eo-account                 | or2delacc   | Removes an existing EO account                                                                                                                        |
+ or2-delete-file                       | or2delf     | Deletes a previously uploaded file from Orchestrator repository                                                                                       |
+ or2-delete-image                      | or2delim    | Deletes custom machine images                                                                                                                         |
+ or2-delete-instance-properties        | or2delp     | Use this command to deletes user-defined metadata from instances                                                                                      |
+ or2-delete-keypair                    | or2delkey   | Deletes a specified key pair                                                                                                                          |
+ or2-delete-maestro-stack              | or2delmstack| Deletes a maestro stack previously run on Orchestration, including all the stack related resources                                                    |
+ or2-delete-schedule                   | or2delsch   | Deletes a previously created schedule                                                                                                                 |
+ or2-delete-tag                        | or2deltag   | Deletes a custom tag from an instance ans its volumes and checkpoints                                                                                 |
+ or2-delete-volume                     | or2delvol   | Deletes the specified storage volume                                                                                                                  |
+ or2-describe-aws-stack-events         | or2dawsse   | Returns the events related to the specified stack                                                                                                     |
+ or2-describe-aws-stack-resources      | or2dawssr   | Describes the resources for running and deleted stacks                                                                                                |
+ or2-describe-aws-stacks               | or2dawss    | Describes one or more existing AWS stacks for the specified project and region                                                                        |
+ or2-describe-checkpoints              | or2dcp      | Describes checkpoints created for the specified instance                                                                                              |
+ or2-describe-chef                     | or2dchef    | Describes the project Chef Server mode                                                                                                                |
+ or2-describe-docker                   | or2dd       | Gives the list of existing Docker elements and their details.                                                                                         |
+ or2-describe-eo-account               | or2dacc     | Describes an EPAM Cloud account                                                                                                                       |
+ or2-describe-files                    | or2df       | Describes uploaded and available files for the specified project                                                                                      |
+ or2-describe-hadoop                   | or2dh       | Describe Hadoop cluster resources                                                                                                                     |
+ or2-describe-images                   | or2dim      | Returns information about the images available for the current project and region                                                                     |
+ or2-describe-instance-properties      | or2getp     | Retrieves user-defined metadata from instances                                                                                                        |
+ or2-describe-instances                | or2din      | Use this command to return information about instances that you own.                                                                                  |
+ or2-describe-jenkins-jobs             | or2djj      | Describes existing Jenkins jobs                                                                                                                       |
+ or2-describe-keypairs                 | or2dkey     | Describes pairs available for provided project and region                                                                                             |
+ or2-describe-load-balancing           | or2dlb      | Shows the list of the hosts (instance IDs) in the Load Balancer group and their availability                                                          |
+ or2-describe-logging                  | or2dlog     | Gives the list of the logged instances and the DNS name of the GrayLog Server.                                                                        |
+ or2-describe-maestro-stack-resources  | or2dmsr     | Describes the resources created during the specified stack execution                                                                                  |
+ or2-describe-maestro-stacks           | or2dmstack  | Describes one or more existing maestro stacks for the specified project and region                                                                    |
+ or2-describe-monitoring               | or2dmon     | Retrieves the information about the instances monitored by Zabbix server, Zabbix monitoring templates and Zabbix agent availability.                  |
+ or2-describe-nessus-templates         | or2dnt      | Describes all present templates for instance scanning                                                                                                 |
+ or2-describe-operation                | or2dop      | Shows a list of available operations within EPAM Cloud Orchestrator                                                                                   |
+ or2-describe-permission-group         | or2dpgr     | Returns the information on operations available for existing permission groups                                                                        |
+ or2-describe-permission-group-mapping | or2despgm   | Describes the permissions group for a specified user or Project Role                                                                                  |
+ or2-describe-projects                 | or2dpro     | Lists the projects available for user                                                                                                                 |
+ or2-describe-regions                  | or2dreg     | Describes virtualization regions, available for the specified project.                                                                                |
+ or2-describe-schedules                | or2dsch     | Describes previously uploaded and available schedules                                                                                                 |
+ or2-describe-services                 | or2dser     | Describes the services activated for the given project in the given region                                                                            |
+ or2-describe-shapes                   | or2dshape   | Retrieves the available instance shapes for your project                                                                                              |
+ or2-describe-static-ips               | or2dsip     | Returns the list of static IPs available for the project.                                                                                             |
+ or2-describe-subnets                  | or2dsn      | Retrieves the available subnets for your project                                                                                                      |
+ or2-describe-tag                      | or2dtag     | Retrieves custom tags, assigned to an instance or a volume for billing purposes                                                                       |
+ or2-describe-telemetry-agents         | or2dtelag   | Describes Telemetry service agents.                                                                                                                   |
+ or2-describe-user                     | or2du       | Returns the information about the projects to which the specified user is assigned                                                                    |
+ or2-describe-vlans                    | or2dvlans   | Describes Virtual Local Area Networks (VLAN) available for specified availability region and project                                                  |
+ or2-describe-volumes                  | or2dvol     | Describes a user's storage volumes                                                                                                                    |
+ or2-detach-volume                     | or2detvol   | Detaches a storage volume from the specified instance                                                                                                 |
+ or2-disassociate-static-ip            | or2dissip   | Disassociates the specified static IP from its instance.                                                                                              |
+ or2-docker-container                  | or2dc       | Manage Docker Swarm containers.                                                                                                                       |
+ or2-docker-image                      | or2di       | Manage Docker Swarm images.                                                                                                                           |
+ or2-docker-registry-image             | or2dri      | Manage Docker Registry images.                                                                                                                        |
+ or2-docker-volume                     | or2dv       | Manage Docker Swarm volumes.                                                                                                                          |
+ or2-ftp-access                        | or2ftpa     | Manages user access for given backup service (e.g. grant access, revoke, list).                                                                       |
+ or2-get-access                        | or2access   | Registers user EPAM domain credentials within Orchestrator                                                                                            |
+ or2-get-info                          | or2info     | Allows obtaining information of Maestro CLI client configuration, the state of environment variables as well as Freemarker FTL user templates utilized|
+ or2-get-telemetry                     | or2tel      | Describes Telemetry service agent statistic by metrics.                                                                                               |
+ or2-go-to-checkpoint                  | or2gcp      | Reverts to the specified instance checkpoint                                                                                                          |
+ or2-google-management-console         | or2goomc    | Provides an URL for accessing Google management console to the current user.                                                                          |
+ or2-hardware-report                   | or2hr       | Generates a hardware server usage report and delivers it to the requesting user's email in .csv format.                                               |
+ or2-help                              | or2help     | Displays Maestro CLI help                                                                                                                             |
+ or2-iam-users                         | or2iam      | Manages project IAM users. Allows to describe, delete and set owner for IAM users.                                                                    |
+ or2-import-keypair                    | or2ikey     | Imports a key pair to the specified region                                                                                                            |
+ or2-kubernetes-namespaces             | or2kns      | Manages Kubernetes namespaces.                                                                                                                        |
+ or2-kubernetes-nodes                  | or2kn       | Manages Kubernetes nodes.                                                                                                                             |
+ or2-kubernetes-pods                   | or2kp       | Manages Kubernetes pods.                                                                                                                              |
+ or2-kubernetes-replication-controllers| or2krc      | Manages Kubernetes replication controllers.                                                                                                           |
+ or2-kubernetes-services               | or2ks       | Manages Kubernetes services.                                                                                                                          |
+ or2-load-balancer-config              | or2lbconf   | Sets up the Load Balancer                                                                                                                             |
+ or2-lock-instance-termination         | or2lock     | Prohibits instance termination. If the specified instance already has termination prohibition, the lock will be released                              |
+ or2-manage-aem                        | or2aem      | Manages Adobe AEM Cluster.                                                                                                                            |
+ or2-manage-ftp                        | or2ftp      | Manages buckets for given backup service (e.g. list, mount, unmount).                                                                                 |
+ or2-manage-hadoop                     | or2mh       | Manage Hadoop cluster resources                                                                                                                       |
+ or2-manage-jenkins-plugins            | or2mjp      | Manages Jenkins service plugins.                                                                                                                      |
+ or2-manage-messages                   | or2mm       | Manages Messaging Service Messages.                                                                                                                   |
+ or2-manage-queues                     | or2mq       | Manages Messaging Service Queues.                                                                                                                     |
+ or2-manage-rdb                        | or2rdb      | Manages Relational Database service.                                                                                                                  |
+ or2-manage-service                    | or2ms       | Activates or deactivates available services for a particular project                                                                                  |
+ or2-manage-ssm                        | or2ssm      | Manages AWS SSM Configuration for project in private regions.                                                                                         |
+ or2-migrate-csa-instance              | or2migcsains| Registers an existing instance in CSA                                                                                                                 |
+ or2-modify-hardware-server            | or2modhs    | Modifies the settings of an existing hardware server (any parameter except -i is optional)                                                            |
+ or2-move-instance-to-vlan             | or2mivlan   | Moves an instance to another VLAN activated for the current project and availability region                                                           |
+ or2-move-to-project                   | or2mtp      | Moves a VM from one project to another one                                                                                                            |
+ or2-openshift-client                  | or2osc      | Installs and configures OpenShift Ansible client to manage OpenShift services.                                                                        |
+ or2-price                             | or2price    | Lists current monthly prices for EPAM Private Cloud Resources                                                                                         |
+ or2-reattach-volume                   | or2rvol     | Detaches specified volume from one instance and attaches it to another instance                                                                       |
+ or2-reboot-instances                  | or2reboot   | Reboots specified instances                                                                                                                           |
+ or2-refresh-projects                  | or2refp     | Refreshes the status of the specified Project abbreviation in EPAM Cloud Orchestrator.                                                                |
+ or2-register-hardware-server          | or2reghs    | Registers a dedicated instance for a hardware server in EPAM Cloud                                                                                    |
+ or2-release-static-ip                 | or2relsip   | Removes a static IP from the project pool.                                                                                                            |
+ or2-remove-jenkins-job                | or2rjj      | Removes Jenkins job                                                                                                                                   |
+ or2-report                            | or2report   | Prepares a monthly billing report for the specified project                                                                                           |
+ or2-resize-volume                     | or2resvol   | Resizes an earlier created storage volume                                                                                                             |
+ or2-revert-to-checkpoint              | or2rcp      | Reverts instance to the latest available checkpoint                                                                                                   |
+ or2-run-aws-stack                     | or2rawss    | Runs a new AWS stack                                                                                                                                  |
+ or2-run-instances                     | or2run      | Launches the specified number of instances with provided shape and image                                                                              |
+ or2-run-maestro-stack                 | or2rmstack  | Runs a new maestro stack based on an existing template                                                                                                |
+ or2-schedule-add-instances            | or2schaddi  | Adds instances to an existing schedule.                                                                                                               |
+ or2-schedule-remove-instances         | or2schremi  | Removes instances from an existing schedule.                                                                                                          |
+ or2-security-check                    | or2sc       | Initiate Nessus security scan.                                                                                                                        |
+ or2-set-instance-properties           | or2setp     | Assigns user-defined metadata to instances                                                                                                            |
+ or2-set-project-checkpoint-quota      | or2setpchq  | Sets a checkpoint creation limit for the specified project in the specified region                                                                    |
+ or2-set-project-instance-quota        | or2setpiq   | Sets an instance creation limit for the specified project, region, and time interval                                                                  |
+ or2-set-project-volume-quota          | or2setpvq   | Sets a volume creation limit for the specified project, region, and time interval                                                                     |
+ or2-set-tag                           | or2settag   | Assigns a custom tag to an instance and its volumes and checkpoints for billing purposes                                                              |
+ or2-sonar-quality-profiles            | or2sqp      | Manages Sonar quality profiles.                                                                                                                       |
+ or2-sonar-rules                       | or2sr       | Manages Sonar rules.                                                                                                                                  |
+ or2-splunk-proxy                      | or2sp       | Manages the Splunk proxy server.                                                                                                                      |
+ or2-start-instances                   | or2start    | Starts the specified stopped instances                                                                                                                |
+ or2-start-logging                     | or2log      | Starts collecting the logs from the specified instance                                                                                                |
+ or2-start-monitoring                  | or2mon      | Adds the instance to Zabbix Monitoring list and Zabbix Server starts collecting the information about this instance                                   |
+ or2-start-telemetry                   | or2starttel | Starts Telemetry service agent on instance.                                                                                                           |
+ or2-stop-instances                    | or2stop     | Stops the specified instances                                                                                                                         |
+ or2-stop-logging                      | or2stoplog  | Removes the instance from Logging Service list                                                                                                        |
+ or2-stop-monitoring                   | or2stopmon  | Stop monitoring the specified instance with Zabbix Monitoring Service                                                                                 |
+ or2-stop-telemetry                    | or2stoptel  | Stops Telemetry service agent on instance.                                                                                                            |
+ or2-suspend-instances                 | or2sus      | Powers down an instance                                                                                                                               |
+ or2-terminate-instances               | or2kill     | Terminates the specified instances                                                                                                                    |
+ or2-terraform                         | or2ter      | Manages Terraform templates.                                                                                                                          |
+ or2-trigger-jenkins-job               | or2tjj      | Triggers Jenkins job                                                                                                                                  |
+ or2-unregister-hardware-server        | or2unreghs  | Unregister a dedicated instance for a hardware server in EPAM Cloud                                                                                   |
+ or2-update-cli                        | or2update   | Retrieves the newest version of Maestro CLI client available on the Internet                                                                          |
+ or2-update-eo-account                 | or2upacc    | Updates an existing EPAM Cloud account                                                                                                                |
+ or2-upload-file                       | or2uf       | Uploads a new file of a specified type (script, eo-template, zabbix-template) and saves it in Orchestrator                                            |
+ or2-validate-chef                     | or2vchef    | Evaluates chef-client configuration (should be executed directly on instance)                                                                         |
+ or2-validate-maestro-stack-template   | or2vmst     | Validate maestro stack template.                                                                                                                      |
+ or2-view-pool-state                   | or2vps      | Gives the list of the images available in the pool                                                                                                    |
+==============================================================================================================================================================================================================
+
+C:\Users\Kateryna_Taran\Desktop\Tasks\IntroToCloud\maestro-cli\maestro-cli\bin>
